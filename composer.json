@@ -1,0 +1,17 @@
+{
+    "name": "hp/chat_app",
+    "require": {
+        "cboden/ratchet": "^0.4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hp\\ChatApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diksha Sahu",
+            "email": "dikshasahu11112001@gmail.com"
+        }
+    ]
+}
