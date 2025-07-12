@@ -36,7 +36,7 @@ chat_app/<br>
 
 ### 1. Clone the repository
 
-git clone https://github.com/Diksha1111/chat_app.git<br>
+git clone https://github.com/Diksha1111/QuickTalk.git<br>
 cd chat_app
 
 ### 2. Install dependencies (WebSocket)
@@ -70,7 +70,7 @@ Open another tab or browser to simulate another user<br>
 Start chatting in real-time!<br>
 
 
-👩‍💻 Author
+👩‍💻 Author<br>
 Diksha Sahu<br>
 📧 dikshasahu11112001@gmail.com
 
