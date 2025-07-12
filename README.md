@@ -20,58 +20,58 @@ QuickTalk is a real-time multi-user chat application built using **PHP**, **MySQ
 ## 📂 Folder Structure
 chat_app/<br>
 │<br>
-├── css/
-│ └── style.css
-├── database/
-│ └── db.php
-├── socket/
-│ ├── chat.php 
-│ └── server.php 
-├── database.sql 
-├── login.php 
-├── register.php 
-├── chat_room.php 
+├── css/<br>
+│ └── style.css<br>
+├── database/<br>
+│ └── db.php<br>
+├── socket/<br>
+│ ├── chat.php <br>
+│ └── server.php <br>
+├── database.sql <br>
+├── login.php <br>
+├── register.php <br>
+├── chat_room.php <br>
 
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
 
-git clone https://github.com/Diksha1111/chat_app.git
+git clone https://github.com/Diksha1111/chat_app.git<br>
 cd chat_app
 
 ### 2. Install dependencies (WebSocket)
-composer install
+composer install<br>
 Make sure you have Composer installed.
 
 ### 3. Import the Database
 Open phpMyAdmin or MySQL CLI
 
-Create a database named chat_app
-Run the database.sql file to create tables
+Create a database named chat_app<br>
+Run the database.sql file to create tables<br>
 
 SOURCE path/to/chat_app/database.sql;
 
 ### 4. Start PHP Server
 
-php -S localhost:8000
-Open your browser:
+php -S localhost:8000<br>
+Open your browser:<br>
 ➡️ http://localhost:8000/register.php
 
 ### 5. Start WebSocket Server
 In a new terminal, run:
 
-cd socket
+cd socket<br>
 php server.php
 
 ✅ Usage
-Register a new user
-Log in to the chat room
-Open another tab or browser to simulate another user
-Start chatting in real-time!
+Register a new user<br>
+Log in to the chat room<br>
+Open another tab or browser to simulate another user<br>
+Start chatting in real-time!<br>
 
 
 👩‍💻 Author
-Diksha Sahu
+Diksha Sahu<br>
 📧 dikshasahu11112001@gmail.com
 
 
